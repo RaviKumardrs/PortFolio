@@ -79,4 +79,17 @@ $(document).ready(function() {
       $('nav').removeClass('myNavScrolled');
     }
   });
+
+  $(window).scroll(function() {
+    var scroolPosition = $(window).scrollTop();
+    if (scroolPosition > 0) {
+      $('.go-to-top').css('display', 'block');
+      $('.scroll-down').css('display', 'none');
+    } else if (scroolPosition == 0) {
+      $('.go-to-top').css('display', 'none');
+      $('.scroll-down').css('display', 'block');
+    }
+  });
+
+  $('[data-toggle="tooltip"]').tooltip({});
 });
