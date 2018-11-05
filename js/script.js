@@ -70,4 +70,13 @@ $(document).ready(function() {
     window.addEventListener('resize', callbackFunc);
     window.addEventListener('scroll', callbackFunc);
   })();
+
+  $(window).scroll(function() {
+    var scroolPosition = $(window).scrollTop();
+    if (scroolPosition > 0) {
+      $('nav').addClass('myNavScrolled');
+    } else {
+      $('nav').removeClass('myNavScrolled');
+    }
+  });
 });
