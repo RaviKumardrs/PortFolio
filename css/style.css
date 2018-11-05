@@ -1,0 +1,23 @@
+#home-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  margin-top: 0;
+}
+
+.myBtn {
+  color: #d82c2e;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.myBtn:hover {
+  text-decoration: none;
+  color: #d82c2e;
+}
