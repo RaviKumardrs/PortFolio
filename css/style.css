@@ -21,3 +21,37 @@
   text-decoration: none;
   color: #d82c2e;
 }
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+#navigation li .active {
+  font-weight: bold;
+  width: 100%;
+}
+
+#navigation .nav-link {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #eee;
+  transition: color 0.5s;
+}
+
+.myNav {
+  padding: 20px 10px;
+  transition: background-color 1.5s, padding 0.6s;
+  opacity: 1;
+}
+
+.myNavScrolled {
+  background-color: #000;
+  padding: 6px 10px;
+  width: 100%;
+  opacity: 1;
+  transition: background-color 5s, padding 0.8s;
+}
