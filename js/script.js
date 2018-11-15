@@ -22,6 +22,12 @@ $(document).ready(function() {
     }
   });
 
+  $('.download-resume-btn').click(function(e) {
+    //stop the browser from following
+    window.location.href = 'resume/SIDDALINGESHA_PATIL_RESUME.docx';
+    return false;
+  });
+
   var skillsTopOffset = $('.skillsSection').offset().top;
   $(window).scroll(function() {
     if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
