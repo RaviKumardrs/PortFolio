@@ -82,7 +82,7 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
     var scroolPosition = $(window).scrollTop();
-    if (scroolPosition > 0) {
+    if (scroolPosition > 500) {
       $('.go-to-top').css('display', 'block');
       $('.scroll-down').css('display', 'none');
     } else if (scroolPosition == 0) {
